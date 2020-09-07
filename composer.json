@@ -29,6 +29,10 @@
     "wpackagist-plugin/login-customizer"          : "*",
     "wpackagist-theme/hamilton"                   : "*",
     "wpackagist-theme/hoffman"                    : "*",
+    "wpackagist-theme/lighthouse"                 : "*",
+    "wpackagist-theme/web-log"                    : "*",
+    "wpackagist-theme/astra"                      : "*",
+    "wpackagist-theme/neve"                       : "*",
     "wpackagist-plugin/bnfw": "^1.8"
   },
   "require-dev": {
