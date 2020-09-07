@@ -1,0 +1,42 @@
+{
+  "name": "devincowan/wp_site",
+  "type": "project",
+  "description": "Forked WordPress Bedrock boilerplate",
+  "config": {
+    "preferred-install": "dist"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "composer/installers": "^1.4",
+    "vlucas/phpdotenv": "^2.0.1",
+    "oscarotero/env": "^1.1.0",
+    "roots/wordpress": "5.2.4",
+    "roots/wp-config": "1.0.0",
+    "roots/wp-password-bcrypt": "1.0.0",
+    "wpackagist-plugin/the-events-calendar"       : "*",
+    "wpackagist-plugin/elementor"                 : "*",
+    "wpackagist-plugin/wordfence"                 : "*",
+    "wpackagist-plugin/newsletter"                : "*"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.0.2",
+    "roave/security-advisories": "dev-master",
+    "wpackagist-plugin/theme-check"               : "*",
+    "wpackagist-plugin/user-switching"            : "*",
+    "wpackagist-plugin/wcm-user-language-switcher": "*"
+  },
+  "extra": {
+    "installer-paths": {
+      "web/wp-config/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "web/wp-config/plugins/{$name}/": ["type:wordpress-plugin"],
+      "web/wp-config/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "web/wp"
+  }
+}
