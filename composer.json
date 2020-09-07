@@ -22,6 +22,7 @@
     "wpackagist-plugin/gutenberg"                 : "*",
     "wpackagist-plugin/the-events-calendar"       : "*",
     "wpackagist-plugin/wordfence"                 : "*",
+    "wpackagist-plugin/featured-image-by-url"     : "*",
     "wpackagist-plugin/newsletter"                : "*",
     "wpackagist-plugin/wp-mail-smtp"              : "*",
     "wpackagist-theme/hamilton"                   : "*",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8f4caaf520f017c2b3a9073a859edab3",
+    "content-hash": "4924e7559c29cbdc2ea22b3d5118a4a8",
     "packages": [
         {
             "name": "composer/installers",
@@ -509,6 +509,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/bnfw/"
+        },
+        {
+            "name": "wpackagist-plugin/featured-image-by-url",
+            "version": "1.1.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/featured-image-by-url/",
+                "reference": "tags/1.1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/featured-image-by-url.1.1.6.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/featured-image-by-url/"
         },
         {
             "name": "wpackagist-plugin/gutenberg",
