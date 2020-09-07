@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "62407ccf866e008452f8f644c3154dd2",
+    "content-hash": "8f4caaf520f017c2b3a9073a859edab3",
     "packages": [
         {
             "name": "composer/installers",
@@ -511,24 +511,6 @@
             "homepage": "https://wordpress.org/plugins/bnfw/"
         },
         {
-            "name": "wpackagist-plugin/featured-image-by-url",
-            "version": "1.1.6",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/featured-image-by-url/",
-                "reference": "tags/1.1.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/featured-image-by-url.1.1.6.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/featured-image-by-url/"
-        },
-        {
             "name": "wpackagist-plugin/gutenberg",
             "version": "8.9.1",
             "source": {
@@ -545,24 +527,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/gutenberg/"
-        },
-        {
-            "name": "wpackagist-plugin/login-customizer",
-            "version": "2.0.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/login-customizer/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/login-customizer.zip?timestamp=1584698421"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/login-customizer/"
         },
         {
             "name": "wpackagist-plugin/newsletter",
@@ -619,24 +583,6 @@
             "homepage": "https://wordpress.org/plugins/wordfence/"
         },
         {
-            "name": "wpackagist-plugin/wp-force-login",
-            "version": "5.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-force-login/",
-                "reference": "tags/5.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-force-login.5.4.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-force-login/"
-        },
-        {
             "name": "wpackagist-plugin/wp-mail-smtp",
             "version": "2.3.1",
             "source": {
@@ -653,24 +599,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-mail-smtp/"
-        },
-        {
-            "name": "wpackagist-theme/astra",
-            "version": "2.5.4",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/astra/",
-                "reference": "2.5.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/astra.2.5.4.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/astra/"
         },
         {
             "name": "wpackagist-theme/hamilton",
@@ -707,60 +635,6 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/hoffman/"
-        },
-        {
-            "name": "wpackagist-theme/lighthouse",
-            "version": "22.0",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/lighthouse/",
-                "reference": "22.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/lighthouse.22.0.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/lighthouse/"
-        },
-        {
-            "name": "wpackagist-theme/neve",
-            "version": "2.8.0",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/neve/",
-                "reference": "2.8.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/neve.2.8.0.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/neve/"
-        },
-        {
-            "name": "wpackagist-theme/web-log",
-            "version": "2.0.5",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/web-log/",
-                "reference": "2.0.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/web-log.2.0.5.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/web-log/"
         }
     ],
     "packages-dev": [

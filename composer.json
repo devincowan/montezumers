@@ -23,16 +23,9 @@
     "wpackagist-plugin/the-events-calendar"       : "*",
     "wpackagist-plugin/wordfence"                 : "*",
     "wpackagist-plugin/newsletter"                : "*",
-    "wpackagist-plugin/featured-image-by-url"     : "*",
-    "wpackagist-plugin/wp-force-login"            : "*",
     "wpackagist-plugin/wp-mail-smtp"              : "*",
-    "wpackagist-plugin/login-customizer"          : "*",
     "wpackagist-theme/hamilton"                   : "*",
     "wpackagist-theme/hoffman"                    : "*",
-    "wpackagist-theme/lighthouse"                 : "*",
-    "wpackagist-theme/web-log"                    : "*",
-    "wpackagist-theme/astra"                      : "*",
-    "wpackagist-theme/neve"                       : "*",
     "wpackagist-plugin/bnfw": "^1.8"
   },
   "require-dev": {
