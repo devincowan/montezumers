@@ -25,6 +25,7 @@
     "wpackagist-plugin/featured-image-by-url"     : "*",
     "wpackagist-plugin/newsletter"                : "*",
     "wpackagist-plugin/wp-mail-smtp"              : "*",
+    "wpackagist-plugin/all-in-one-event-calendar" : "*",
     "wpackagist-theme/hamilton"                   : "*",
     "wpackagist-theme/hoffman"                    : "*",
     "wpackagist-plugin/bnfw": "^1.8"
